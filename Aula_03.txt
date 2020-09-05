@@ -1,0 +1,359 @@
+    1  git clone https://github.com/Jorgec815/Binarios.git
+    2  git clone https://github.com/Jorgec815/Binarios.git
+    3  git clone https://github.com/chr1s4ng3l/Decimal-a-binario.git
+    4  ls
+    5  ls
+    6  cd Documents
+    7  ls
+    8  cd Curso\ Font-End/
+    9  ls
+   10  mov Versionamento de código - Git Aula - 01.pdf Nueva carpeta
+   11  ls
+   12  mv "Nueva carpeta" Modulo_02
+   13  ls
+   14  mv 'Versionamento de código - Git Aula - 01.pdf' Modulo_02/ 
+   15  ls
+   16  mv 'Versionamento de código -Git Aula - 02.pdf' Modulo_02/
+   17  ls
+   18  mkdir Modulo_01
+   19  ls
+   20  mv 'Introducao a tecnologia Aula- 01.pdf' Modulo_01
+   21  ls
+   22  ~
+   23  ls
+   24  cd ~
+   25  ls
+   26  cd Downloads
+   27  ls
+   28  cp 'CURRICULO NOVO JHOEL.docx' Modulo_01 
+   29  cd..
+   30  cd .
+   31  cd ..
+   32  ls
+   33  cd documents
+   34  ls
+   35  cd Curso\ Font-End/
+   36  ls
+   37  ls Modulo_01
+   38  rm -r joe joe1 joe2 pasta separada
+   39  rm -r joe
+   40  rm -r "pasta separada"
+   41  touch elo.txt
+   42  echo "" > elo1.txt
+   43  echo "" > elo2.txt
+   44  rm -r elo.txt elo1.txt elo2.txt
+   45  cat curriculojhoel.docx 
+   46  git config --global user.name 'jhoel'
+   47  git config --global user.email 'jhoel834@gmail.com'
+   48  git config user.name
+   49  git config --global user.name 'Jhoel Gonzalez'
+   50  git config user.name
+   51  cd desktop
+   52  mkdir Curso Front_End
+   53  cd cuso front_end
+   54  ls
+   55  rm -r curso front_end
+   56  ls
+   57  mkdir Curso""front""end
+   58  ls
+   59  cd Cursofrontend/
+   60  mv cursofrontend curso_git
+   61  cd ..
+   62  mv Cursofrontend curso_git
+   63  ls
+   64  cd curso_git/
+   65  git init
+   66  git status
+   67  echo '#Aprendendo a usar o Git' > readme.md
+   68  git status
+   69  git add readme.md
+   70  git status
+   71  git commit -m 'commit inicial'
+   72  echo '##Aula 1' >> readme.md
+   73  git status
+   74  echo 'Jhoel onzalez'
+   75  git status
+   76  echo 'jhoel gonzalez' > Participantes.txt
+   77  git status
+   78  git add.
+   79  git status
+   80  git add .
+   81  git status
+   82  git restore --satged Participantes.txt
+   83  git status
+   84  git restore --staged Participantes.txt
+   85  git status
+   86  git add Participantes.txt
+   87  git status
+   88  git restre --staged .
+   89  git status
+   90  git restore --staged .
+   91  git status
+   92  git commit -am 'alteracao arquivo no readme'
+   93  git status
+   94  git add Participantes.txt
+   95  git status
+   96  git commit -m 'Adicionando participantes'
+   97  git status
+   98  cd ~
+   99  ls
+  100  cd downloads
+  101  ls
+  102  rm -r FFSetup5.3.0.1.exe 
+  103  rm -r formatfactory-5-4-0-0.exe 
+  104  ls
+  105  rm -r formatfactory-5-4-0-0.exe 
+  106  clear
+  107  git config user.name
+  108  mkdir Curso_git
+  109  cd Curso_git/
+  110  git init
+  111  echo '#Aula 01' > readme.md
+  112  git status
+  113  git add readme.md
+  114  git status
+  115  git commit -m 'commit inicial'
+  116  git status
+  117  echo '#Aula__01' >> readme.me
+  118  git status
+  119  git add readme.me
+  120  git status
+  121  git commit -m 'commit inicial'
+  122  git init
+  123  ls
+  124  rm -r .git
+  125  mkdir curso_git
+  126  cd curso_git/
+  127  git init
+  128  echo '#Aula' > readme.md
+  129  git add readme.md
+  130  git commit -m 'commit inicial'
+  131  git status
+  132  echo '#Aula 01' >> readme.md
+  133  git status
+  134  echo 'jhoel gonzalez' > participantes.txt
+  135  git status
+  136  git add .
+  137  git status
+  138  git restore --staged .
+  139  git status
+  140  git commit -am 'actualizacao do arquivo readme'
+  141  git status
+  142  git add participantes.txt 
+  143  git commit -m 'adicionando participantes'
+  144  git status
+  145  history > historico.txt
+  146  clear
+  147  clear
+  148  cat> jhoel.txt
+  149  cat 'hola' > jhoel.txt 
+  150  cat> "hola" > jhoel.txt
+  151  mkdir jhoel
+  152  cd jhoel
+  153  cat> jhoelito.txt
+  154  cd desktop
+  155  mkdir jhoel
+  156  cd jhoel
+  157  cat> jhoelito.txt
+  158  git log
+  159  git log --pretty=oneline
+  160  git log --stat
+  161  git log
+  162  git log --pretty=oneline
+  163  git log --stat
+  164  git log
+  165  git log --pretty=oneline
+  166  git log --stat
+  167  git log -p
+  168  git log -p -2
+  169  git log -p -3
+  170  git log --since=2.weeks
+  171  git log --since=2.days
+  172  git log --author='jhoel gonzalez'
+  173  git log --author='Jhoel Gonzalez'
+  174  git log --soft HEAD~
+  175  git reset --soft HEAD~
+  176  git status
+  177  git add .
+  178  git status
+  179  git commit -am 'comandos aula 4' 
+  180  git status
+  181  git log
+  182  git rest --soft  HEAD~
+  183  git status
+  184  git reset --soft HEAD~2
+  185  git status
+  186  git commit -m 'alteracao' > readme.md 
+  187  git status
+  188  git add .
+  189  git status
+  190  git commit -am 'adicionando'
+  191  git log
+  192  git checkout HEAD~
+  193  git log --pretty=oneline
+  194  git branch
+  195  git checkout -b feature
+  196  git branch
+  197  touch nova_feature
+  198  git status
+  199  git add nova_feature 
+  200  git commit -m 'adicionando nova feature'
+  201  git log
+  202  git checkout master
+  203  git status
+  204  git log
+  205  touch continuando_master
+  206  git add continuando_master 
+  207  git commit -m 'adicionando cntinuacao na master'
+  208  git log
+  209  git checkout feature
+  210  git log
+  211  git checkout -b feature2 master
+  212  git log
+  213  git checkout -d feature2
+  214  git checkout feature 2
+  215  git checkout feature2
+  216  git branch -d feature2
+  217  git checkout master
+  218  git branch -d feature2
+  219  git log
+  220  clear
+  221  git log --pretty=oneline --graph
+  222  clear
+  223  git checkout feature
+  224  git log
+  225  git log --pretty=oneline --graph
+  226  git merge master
+  227  git log
+  228  git log --pretty=oneline --graph
+  229  git reset --hard HEAD~
+  230  git log --pretty=oneline --graph
+  231  git rebase master
+  232  git log --pretty=oneline --graph
+  233  rm -r .vscode/
+  234  ls -a
+  235  cd desktop
+  236  cd ..
+  237  cd ..
+  238  ls
+  239  desktop
+  240  cd desktop
+  241  mkdir Teste; cd Teste
+  242  echo '# Aprendendo usar o Git' > Test.txt
+  243  ls
+  244  cat Test.txt
+  245  mv Teste.txt ../documents
+  246  mv Test.txt ../../ documents
+  247  cd ..
+  248  cd ..
+  249  ls
+  250  cd desktop; cd Test
+  251  cd teste
+  252  ls
+  253  mv teste.txt ../ ../ documents
+  254  mv Test.txt ../ ../ Documents
+  255  ls ~
+  256  ls ~/ downloads
+  257  ls ~/ downloads
+  258  cd ..
+  259  cd ..
+  260  cd downloads
+  261  cd ..
+  262  cd desktop
+  263  cd Teste/
+  264  mv Test.txt ../ ../ cd documents
+  265  mv Test.txt ../ .. documents/
+  266  mv Test.txt ../ ../documents/
+  267  mkdir teste
+  268  cd test/
+  269  cd teste/
+  270  touch Teste01
+  271  mv Teste01 
+  272  rm -r Teste01 
+  273  s
+  274  ls
+  275  touch teste01
+  276  mv teste 
+  277  mv teste ../ ../
+  278  ls
+  279  mv teste01 ..
+  280  cd ~
+  281  ls -a
+  282  ls
+  283  desktop
+  284  cd desktop
+  285  mkdir teste
+  286  cd teste
+  287  touch teste01
+  288  ls
+  289  mv teste
+  290  mv teste ../../documents
+  291  mv teste ../../documents
+  292  mv teste01 ../../documents
+  293  cd ../../documents
+  294  ls
+  295  ls
+  296  ls Curso\ Font-End/
+  297  cp progit_v2.1.20.pdf ~/documents/../desktop/teste
+  298  ls ~/desktop
+  299  ls
+  300  cd ..
+  301  dektop
+  302  desktop
+  303  cd desktop
+  304  mv ~/documents/teste01 ~/desktop/teste
+  305  ls ~/documents
+  306  ls teste
+  307  git config --global user.name 'Jhoel Gonzalez'
+  308  git config --global user.email 'Jhoel834@gmail.com'
+  309  git config user.name
+  310  git config user.email
+  311  mkdir curso_git
+  312  git init
+  313  echo '# Aprendendo usar o Git' > Readme.md
+  314  git status
+  315  ls -a
+  316  rm -r .git
+  317  rm -r Readme.md 
+  318  cd curso_git
+  319  git init
+  320  echo '# Aprendendo usar o Git' > Readme.md
+  321  git status
+  322  git add Readme.md 
+  323  git status
+  324  git commit -m 'commit inicial'
+  325  git status
+  326  echo '## Aula 01' >> Readme.md 
+  327  git status
+  328  echo 'Jhoel Gonzalez' > Participantes.txt
+  329  git status
+  330  git add .
+  331  git status
+  332  git commit -am 'Alteracao no Readme.md'
+  333  git status
+  334  git reset HEAD~
+  335  git status
+  336  git log
+  337  mkdir curso_git
+  338  cd curso_git
+  339  git init
+  340  echo '# Aprendendo usar o Git' > Readme.md
+  341  git status 
+  342  git add Readme.md 
+  343  git status
+  344  git commit -m 'commit inicial' 
+  345  git status
+  346  echo '## Aula 01' >> Readme.md
+  347  git status
+  348  echo 'Jhoel Gonzalez' > Participantes.txt
+  349  git status
+  350  git add .
+  351  git status
+  352  git restore --staged .
+  353  git status
+  354  git commit -am 'Alteracao no Readme.md'
+  355  git status
+  356  git add .
+  357  git commit -m 'Adicionando participantes'
+  358  git status
+  359  history > Aula_03.txt
